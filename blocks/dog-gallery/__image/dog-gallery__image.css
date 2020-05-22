@@ -1,0 +1,16 @@
+.dog-gallery__image {
+  background-size:cover;
+
+  height:60%;
+  margin-bottom:1rem;
+ 
+}
+
+
+@media only screen and (min-width: 426px)  {
+    .dog-gallery__image {   
+        height:initial;
+        margin-bottom:0;
+       
+    }
+}

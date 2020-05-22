@@ -1,0 +1,9 @@
+@import url('./__text/notification__text.css');
+@import url('./_type/_info/notification_type_info.css');
+@import url('./_type/_error/notification_type_error.css');
+
+.notification {
+  width:90%;
+  padding: .75rem 1.25rem;
+  margin:auto;
+}

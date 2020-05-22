@@ -1,0 +1,9 @@
+.page {
+  background-color: #fbfbf2;;
+  font-family: 'Montserrat', sans-serif;
+  overflow: auto;
+
+  
+  min-height:100%;
+  height:auto;
+}

@@ -1,0 +1,18 @@
+.header__button {
+    background-color:#a9a4eb;
+     margin:auto;
+    color:white;
+    font-size:1.4rem;
+}
+
+.header__button:focus {
+    outline:none;
+}
+
+.header__button:hover {
+    border: 2px solid #a9a4eb;
+    background-color:#FFF;
+     margin:auto;
+    color:#a9a4eb;
+    font-size:1.4rem;
+}

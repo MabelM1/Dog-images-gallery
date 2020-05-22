@@ -1,0 +1,11 @@
+@import url('./__input/header__input.css');
+@import url('./__title/header__title.css');
+@import url('./__container/header__container.css');
+@import url('./__button/header__button.css');
+
+.header {
+    height: 40vh;
+    background: linear-gradient(rgba(0,52,130,.4),rgba(0,52,130,.4)), url('../../images/hero.jpeg') center center /cover no-repeat;
+    
+   
+}

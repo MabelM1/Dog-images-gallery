@@ -1,0 +1,11 @@
+.header__input {
+    border-radius: .6rem;
+    border:none;
+    margin-bottom:12%;
+    padding: .6rem 0 .6rem .5rem;
+    font-size: 1.6rem;
+}
+
+.header__input:focus{
+    outline: none;
+}

@@ -1,0 +1,36 @@
+@import url('./__image/dog-gallery__image.css');
+
+.dog-gallery {
+  margin:5% auto 0;
+
+  height: 70vh;
+  max-width:100rem;
+
+  display:block;
+ 
+
+  
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .dog-gallery {
+     min-height:70vh; 
+   
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5,60%);
+    column-gap: 1%;
+    row-gap: 1%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .dog-gallery {
+    min-height:70vh;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(5,60%) ;
+    column-gap: 1%;
+    row-gap: 1%;
+  }
+}
